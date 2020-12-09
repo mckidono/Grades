@@ -1,0 +1,22 @@
+body {
+    background: lightskyblue;
+}
+
+fieldset {
+    padding: 10px 30px;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+p {
+    color: firebrick;
+}
+
+img {
+    float: right;
+}
+div{
+    visibility: hidden;
+}

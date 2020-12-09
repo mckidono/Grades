@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Grade.css">
+
+    <title>Grading</title>
+
+</head>
+
+<body>
+    <fieldset>
+    <form style="width: 25%;border: 10px; background-color: bisque; border: 2px solid black;margin:auto; margin-top: 10%;"  >
+        
+        
+                <legend>Score by Percentage</legend></th>
+            First Name:
+                <input type="text" id="firstName" name="firstName" class="form-control">
+            
+            
+                <br><label>Last Name:</label>
+                <input type="text" id="lastName" name="lastName" class="form-control">
+            
+            
+                <br><label>Point Earned:</label>
+                <input type="number" id="pointEarned" name="pointEarned" class="form-control">
+            
+            
+                <br> <Label>Points Possible:</Label>
+                <input type="number" id="pointsPoss" name="pointsPoss" class="form-control"></br>
+            
+            
+                
+                    <button   id="store" type="button">store</button>
+                    <button  id="name" type="button">sort by Name</button>
+                    <button id="percent" type="button">sort by percent</button>
+                    <button id="outputb" type="button">output</button>
+                
+                </form>
+            </fieldset>
+            
+                
+                    <p id="output">
+
+                    </p><br>
+                
+
+            
+            
+        
+  
+        
+   
+    
+ 
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        
+<script src="Grade.js"></script>
+</html>
